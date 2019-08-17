@@ -1,0 +1,2418 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     97298,       2408]
+NotebookOptionsPosition[     94870,       2361]
+NotebookOutlinePosition[     95205,       2376]
+CellTagsIndexPosition[     95162,       2373]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["4.1 Make a bar chart of {1,1,2,3,5}.", "Text",
+ CellChangeTimes->{{3.775047592275775*^9, 
+  3.775047638648026*^9}},ExpressionUUID->"9b2f8500-d850-49ab-883b-\
+2841e8f5b4fa"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BarChart", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "2", ",", "3", ",", "5"}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.775047621950766*^9, 3.7750476312355947`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"7505d631-d10f-48e2-a9d8-4ee609a21bf0"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Opacity[0], 
+    PointBox[{{0.45075018208302986`, 0.}, {5.451201747997087, 0.}}]}, {{}, 
+    {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+     0.6649999999999999], Thickness[Small]}], 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{0.5487982520029133, 0.}, {1.4512017479970867`, 1.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{15.340871642774765`, 76.50117446106272}, {
+            61.5067810955059, 103.0618960624632}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{1.5487982520029133`, 0.}, {2.4512017479970867`, 1.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{82.56169147288723, 143.72199429117518`}, {
+            61.5067810955059, 103.0618960624632}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{2.5487982520029133`, 0.}, {3.4512017479970867`, 2.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{149.7825113029997, 210.94281412128765`}, {
+            20.451666128548595`, 103.0618960624632}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 2]& ,
+         TagBoxNote->"2"],
+        StyleBox["2", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[2, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{3.5487982520029133`, 0.}, {4.451201747997087, 3.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{217.00333113311217`, 
+            278.16363395140013`}, {-20.60344883840871, 103.0618960624632}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 3]& ,
+         TagBoxNote->"3"],
+        StyleBox["3", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[3, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{4.548798252002913, 0.}, {5.451201747997087, 5.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{284.22415096322464`, 
+            345.3844537815126}, {-102.71367877232333`, 103.0618960624632}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 5]& ,
+         TagBoxNote->"5"],
+        StyleBox["5", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[5, {}], "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, 
+   StyleBox[
+    StyleBox[{
+      {Thickness[Tiny], 
+       LineBox[{{0.45075018208302986`, 0.}, {5.551210779315368, 0.}}], 
+       StyleBox[{}, "GraphicsLabel",
+        StripOnInput->False]}, 
+      StyleBox[{
+        {Thickness[Tiny], 
+         LineBox[{{0.5487982520029133, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {0.5487982520029133, 0.}]}],
+          LineBox[{{5.451201747997087, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {5.451201747997087, 
+            0.}]}], {{}, {}, {}, {}, {}, {}, {}}}, 
+        StyleBox[{}, "GraphicsLabel",
+         StripOnInput->False]}, "GraphicsTicks",
+       StripOnInput->False]},
+     Antialiasing->False], "GraphicsAxes",
+    StripOnInput->False]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{False, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.45075018208302986`, 0.},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& )},
+  DisplayFunction->Identity,
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{All, All}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{None, Automatic}]], "Output",
+ CellChangeTimes->{3.7750476323921967`*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"9daccbbc-b6d2-4d66-90f4-de1be548df1f"]
+}, Open  ]],
+
+Cell["4.2 Make a pie chart of numbers from 1 to 10.", "Text",
+ CellChangeTimes->{{3.775047648204997*^9, 
+  3.775047665250216*^9}},ExpressionUUID->"ee1b1a5f-b522-40ee-8675-\
+2428d6cd3def"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PieChart", "[", 
+  RowBox[{"Range", "[", "10", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7750476709601192`*^9, 3.775047677267469*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"b8e260aa-994c-4083-8fe5-8df90ce8a0e4"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   DynamicModuleBox[{DynamicChart`click$6073$6153 = False, 
+    DynamicChart`click$6081$6153 = False, DynamicChart`click$6085$6153 = 
+    False, DynamicChart`click$6089$6153 = False, 
+    DynamicChart`click$6093$6153 = False, DynamicChart`click$6097$6153 = 
+    False, DynamicChart`click$6101$6153 = False, 
+    DynamicChart`click$6105$6153 = False, DynamicChart`click$6109$6153 = 
+    False, DynamicChart`click$6113$6153 = False}, {
+     {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
+         {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {3.0273529207319823`, 
+                    3.141592653589793}]},
+                  
+                  ImageSizeCache->{{16.585786437626894`, 
+                   181.41421356237305`}, {-21.88082196464074, \
+-0.5857864376268971}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6073$6153, 
+                 FEPrivate`Not[DynamicChart`click$6073$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6073$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.19967382078522714`, 0.011417762172553686`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6073$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.99048, 0.6546373333333334, 0.2701484444444444], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {2.798873455016361, 
+                    3.0273529207319823`}]},
+                  
+                  ImageSizeCache->{{17.64174531116177, 
+                   181.41421356237305`}, {-57.85421526327282, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 2]& ,
+                TagBoxNote->"2"],
+               StyleBox["2", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[2, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6081$6153, 
+                 FEPrivate`Not[DynamicChart`click$6081$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6081$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.19480238338846667`, 0.04529935348515298}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6081$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.998096, 0.5661274666666667, 0.2140296888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {2.4561542564429293`, 
+                    2.798873455016361}]},
+                  
+                  ImageSizeCache->{{26.006999528023897`, 
+                   181.41421356237305`}, {-105.96223107941009`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 3]& ,
+                TagBoxNote->"3"],
+               StyleBox["3", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[3, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6085$6153, 
+                 FEPrivate`Not[DynamicChart`click$6085$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6085$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.17414921542395542`, 0.09834658492912082}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6085$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.928, 0.5210666666666667, 0.2], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.9991953250116865`, 
+                    2.4561542564429293`}]},
+                  
+                  ImageSizeCache->{{53.17484551409552, 
+                   181.41421356237305`}, {-150.77459680980508`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 4]& ,
+                TagBoxNote->"4"],
+               StyleBox["4", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[4, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6089$6153, 
+                 FEPrivate`Not[DynamicChart`click$6089$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6089$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.12212957592708765`, 0.15838044918445504`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6089$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.8320000000000001, 0.49048888888888886`, 0.2], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.4279966607226333`, 
+                    1.9991953250116865`}]},
+                  
+                  ImageSizeCache->{{111.2885543313213, 
+                   204.46921736264522`}, {-165.41421356237305`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 5]& ,
+                TagBoxNote->"5"],
+               StyleBox["5", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[5, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6093$6153, 
+                 FEPrivate`Not[DynamicChart`click$6093$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6093$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.028462967654657, 0.19796428837618657`}}, {{1, 0}, {0,
+               1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6093$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.7598801777777778, 0.4773333333333333, 0.3161064888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {0.7425582635757695, 
+                    1.4279966607226333`}]},
+                  
+                  ImageSizeCache->{{178.58578643762687`, 
+                   300.7662778983506}, {-163.76528714708417`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 6]& ,
+                TagBoxNote->"6"],
+               StyleBox["6", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[6, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6097$6153, 
+                 FEPrivate`Not[DynamicChart`click$6097$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6097$6153, {{{1., 0.}, {0., 1.}}, {
+               0.09333346464513473, 0.17688658619956288`}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6097$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.7116405333333333, 0.4816, 0.5483194666666666], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {-0.05711986642890521, 
+                    0.7425582635757695}]},
+                  
+                  ImageSizeCache->{{178.58578643762687`, 
+                   343.414213562373}, {-112.95454740676426`, 
+                   8.662600922141493}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 7]& ,
+                TagBoxNote->"7"],
+               StyleBox["7", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[7, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6101$6153, 
+                 FEPrivate`Not[DynamicChart`click$6101$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6101$6153, {{{1., 0.}, {0., 1.}}, {
+               0.18836887272790492`, 0.06720987864308606}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6101$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.6558762666666667, 0.4926222222222222, 0.7345293333333333], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-0.9710377292913908, -0.05711986642890521}]},
+                  
+                  ImageSizeCache->{{178.58578643762687`, 
+                   343.15000839840707`}, {-3.414213562373078, 
+                   133.1406608703425}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 8]& ,
+                TagBoxNote->"8"],
+               StyleBox["8", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[8, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6105$6153, 
+                 FEPrivate`Not[DynamicChart`click$6105$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6105$6153, {{{1., 0.}, {0., 1.}}, {
+               0.17414921542395545`, -0.09834658492912075}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6105$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.5775381333333334, 0.5239111111111111, 0.7827298666666667], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-1.9991953250116863`, -0.9710377292913908}]},
+                  
+                  ImageSizeCache->{{111.28855433132132`, 
+                   272.8540150187896}, {-3.414213562373078, 
+                   161.41421356237308`}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 9]& ,
+                TagBoxNote->"9"],
+               StyleBox["9", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[9, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6109$6153, 
+                 FEPrivate`Not[DynamicChart`click$6109$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6109$6153, {{{1., 0.}, {0., 1.}}, {
+               0.01711500169576797, -0.19926634617253827`}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6109$6153}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -1.9991953250116863`}]},
+                  
+                  ImageSizeCache->{{16.585786437626894`, 
+                   181.41421356237305`}, {-3.414213562373078, 
+                   146.77459680980508`}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 10]& ,
+                TagBoxNote->"10"],
+               StyleBox["10", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[10, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6113$6153, 
+                 FEPrivate`Not[DynamicChart`click$6113$6153]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$6113$6153, {{{1., 0.}, {0., 
+               1.}}, {-0.16825070656623622`, -0.10812816349111956`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$6113$6153}]],
+           "DelayedClickEffect"]}}}, {}}, {}}, {{{
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6073$6153, 
+               FEPrivate`Not[DynamicChart`click$6073$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6073$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.19967382078522714`, 0.011417762172553686`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6073$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 2]& ,
+              TagBoxNote->"2"],
+             StyleBox["2", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[2, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6081$6153, 
+               FEPrivate`Not[DynamicChart`click$6081$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6081$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.19480238338846667`, 0.04529935348515298}}, {{1, 0}, {0,
+             1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6081$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 3]& ,
+              TagBoxNote->"3"],
+             StyleBox["3", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[3, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6085$6153, 
+               FEPrivate`Not[DynamicChart`click$6085$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6085$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.17414921542395542`, 0.09834658492912082}}, {{1, 0}, {0,
+             1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6085$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 4]& ,
+              TagBoxNote->"4"],
+             StyleBox["4", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[4, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6089$6153, 
+               FEPrivate`Not[DynamicChart`click$6089$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6089$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.12212957592708765`, 0.15838044918445504`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6089$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 5]& ,
+              TagBoxNote->"5"],
+             StyleBox["5", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[5, {}], "Tooltip"]& ],
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6093$6153, 
+               FEPrivate`Not[DynamicChart`click$6093$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6093$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.028462967654657, 0.19796428837618657`}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6093$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 6]& ,
+              TagBoxNote->"6"],
+             StyleBox["6", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[6, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6097$6153, 
+               FEPrivate`Not[DynamicChart`click$6097$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6097$6153, {{{1., 0.}, {0., 1.}}, {
+             0.09333346464513473, 0.17688658619956288`}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6097$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 7]& ,
+              TagBoxNote->"7"],
+             StyleBox["7", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[7, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6101$6153, 
+               FEPrivate`Not[DynamicChart`click$6101$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6101$6153, {{{1., 0.}, {0., 1.}}, {
+             0.18836887272790492`, 0.06720987864308606}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6101$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 8]& ,
+              TagBoxNote->"8"],
+             StyleBox["8", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[8, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6105$6153, 
+               FEPrivate`Not[DynamicChart`click$6105$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6105$6153, {{{1., 0.}, {0., 1.}}, {
+             0.17414921542395545`, -0.09834658492912075}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6105$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 9]& ,
+              TagBoxNote->"9"],
+             StyleBox["9", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[9, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6109$6153, 
+               FEPrivate`Not[DynamicChart`click$6109$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6109$6153, {{{1., 0.}, {0., 1.}}, {
+             0.01711500169576797, -0.19926634617253827`}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6109$6153}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 10]& ,
+              TagBoxNote->"10"],
+             StyleBox["10", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[10, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$6113$6153, 
+               FEPrivate`Not[DynamicChart`click$6113$6153]], PassEventsDown -> 
+             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$6113$6153, {{{1., 0.}, {0., 
+             1.}}, {-0.16825070656623622`, -0.10812816349111956`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$6113$6153}]],
+         "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+    DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+  ContentSelectable->False,
+  DisplayFunction->Identity,
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{-1., 1.}, {-1., 1.}},
+  PlotRangePadding->Scaled[0.05]]], "Output",
+ CellChangeTimes->{3.7750476781219883`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"96a516b2-cdba-4aa8-aedd-37c6fef652af"]
+}, Open  ]],
+
+Cell["4.3 Make a bar chart of numbers counting down from 20 to 1.", "Text",
+ CellChangeTimes->{{3.775047689371512*^9, 
+  3.7750477096366463`*^9}},ExpressionUUID->"c2809c32-1c9a-418d-b33b-\
+ac088048b0bd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BarChart", "[", 
+  RowBox[{"Range", "[", 
+   RowBox[{"20", ",", "1", ",", 
+    RowBox[{"-", "1"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775047718376834*^9, 3.7750477239740047`*^9}, {
+  3.775047764272704*^9, 3.775047785637814*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"490824f3-5cb4-4ef9-afe8-f5cf8aa53c8b"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Opacity[0], 
+    PointBox[{{0.19588550983899827`, 0.}, {20.407802394385577`, 0.}}]}, {{}, 
+    {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+     0.5599999999999999], Thickness[Small]}], 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{0.5921976056144214, 0.}, {1.4078023943855786`, 20.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{20.246716333592257`, 
+            34.11686831595383}, {-101.87134050414721`, 100.97172611871372`}}],
+          
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 20]& ,
+         TagBoxNote->"20"],
+        StyleBox["20", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[20, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{1.5921976056144214`, 0.}, {2.4078023943855786`, 
+             19.}, "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{36.63964605450023, 
+            50.5097980368618}, {-91.75418717300417, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 19]& ,
+         TagBoxNote->"19"],
+        StyleBox["19", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[19, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{2.5921976056144214`, 0.}, {3.4078023943855786`, 
+             18.}, "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{53.0325757754082, 
+            66.90272775776978}, {-81.63703384186113, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 18]& ,
+         TagBoxNote->"18"],
+        StyleBox["18", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[18, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{3.5921976056144214`, 0.}, {4.407802394385579, 17.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{69.42550549631618, 
+            83.29565747867774}, {-71.51988051071808, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 17]& ,
+         TagBoxNote->"17"],
+        StyleBox["17", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[17, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{4.592197605614421, 0.}, {5.407802394385579, 16.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{85.81843521722415, 
+            99.68858719958571}, {-61.40272717957504, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 16]& ,
+         TagBoxNote->"16"],
+        StyleBox["16", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[16, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{5.592197605614421, 0.}, {6.407802394385579, 15.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{102.21136493813212`, 
+            116.08151692049368`}, {-51.285573848431994`, 
+            100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 15]& ,
+         TagBoxNote->"15"],
+        StyleBox["15", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[15, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            RectangleBox[{6.592197605614421, 0.}, {7.407802394385579, 14.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{118.6042946590401, 
+            132.47444664140167`}, {-41.16842051728895, 100.97172611871372`}}],
+          
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 14]& ,
+         TagBoxNote->"14"],
+        StyleBox["14", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[14, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{7.592197605614421, 0.}, {8.407802394385579, 13.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{134.99722437994808`, 
+            148.86737636230964`}, {-31.051267186145907`, 
+            100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 13]& ,
+         TagBoxNote->"13"],
+        StyleBox["13", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[13, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{8.592197605614421, 0.}, {9.407802394385579, 12.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{151.39015410085605`, 
+            165.2603060832176}, {-20.93411385500285, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 12]& ,
+         TagBoxNote->"12"],
+        StyleBox["12", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[12, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{9.592197605614421, 0.}, {10.407802394385579`, 11.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{167.78308382176402`, 
+            181.6532358041256}, {-10.816960523859805`, 100.97172611871372`}}],
+          
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 11]& ,
+         TagBoxNote->"11"],
+        StyleBox["11", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[11, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{10.592197605614421`, 0.}, {11.407802394385579`, 
+             10.}, "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{184.176013542672, 
+            198.04616552503356`}, {-0.6998071927167473, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 10]& ,
+         TagBoxNote->"10"],
+        StyleBox["10", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[10, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{11.592197605614421`, 0.}, {12.407802394385579`, 9.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{200.56894326357997`, 214.43909524594153`}, {
+            9.417346138426296, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 9]& ,
+         TagBoxNote->"9"],
+        StyleBox["9", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[9, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{12.592197605614421`, 0.}, {13.407802394385579`, 8.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{216.96187298448794`, 230.8320249668495}, {
+            19.53449946956934, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 8]& ,
+         TagBoxNote->"8"],
+        StyleBox["8", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[8, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{13.592197605614421`, 0.}, {14.407802394385579`, 7.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{233.3548027053959, 247.22495468775747`}, {
+            29.651652800712384`, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 7]& ,
+         TagBoxNote->"7"],
+        StyleBox["7", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[7, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{14.592197605614421`, 0.}, {15.407802394385579`, 6.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{249.74773242630388`, 263.6178844086654}, {
+            39.768806131855435`, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 6]& ,
+         TagBoxNote->"6"],
+        StyleBox["6", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[6, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{15.592197605614421`, 0.}, {16.407802394385577`, 5.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{266.14066214721186`, 280.0108141295734}, {
+            49.885959462998485`, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 5]& ,
+         TagBoxNote->"5"],
+        StyleBox["5", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[5, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{16.59219760561442, 0.}, {17.407802394385577`, 4.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{282.5335918681198, 296.40374385048136`}, {
+            60.00311279414153, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 4]& ,
+         TagBoxNote->"4"],
+        StyleBox["4", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[4, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{17.59219760561442, 0.}, {18.407802394385577`, 3.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{298.92652158902774`, 312.79667357138936`}, {
+            70.12026612528457, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 3]& ,
+         TagBoxNote->"3"],
+        StyleBox["3", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[3, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{18.59219760561442, 0.}, {19.407802394385577`, 2.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{315.31945130993574`, 329.1896032922973}, {
+            80.23741945642763, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 2]& ,
+         TagBoxNote->"2"],
+        StyleBox["2", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[2, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{19.59219760561442, 0.}, {20.407802394385577`, 1.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{331.7123810308437, 345.5825330132053}, {
+            90.35457278757067, 100.97172611871372`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, 
+   StyleBox[
+    StyleBox[{
+      {Thickness[Tiny], 
+       LineBox[{{0.19588550983899827`, 0.}, {20.812040732076508`, 0.}}], 
+       StyleBox[{}, "GraphicsLabel",
+        StripOnInput->False]}, 
+      StyleBox[{
+        {Thickness[Tiny], 
+         LineBox[{{0.5921976056144214, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {0.5921976056144214, 0.}]}],
+          LineBox[{{20.407802394385577`, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {20.407802394385577`, 
+            0.}]}], {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, \
+{}, {}, {}, {}, {}, {}, {}, {}}}, 
+        StyleBox[{}, "GraphicsLabel",
+         StripOnInput->False]}, "GraphicsTicks",
+       StripOnInput->False]},
+     Antialiasing->False], "GraphicsAxes",
+    StripOnInput->False]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{False, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.19588550983899827`, 0.},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& )},
+  DisplayFunction->Identity,
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{All, All}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{None, Automatic}]], "Output",
+ CellChangeTimes->{{3.775047775898595*^9, 3.775047786899536*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"0985eec5-ab8f-4e12-8ab2-4a50d5acde1b"]
+}, Open  ]],
+
+Cell["4.4 Display numbers from 1 to 5 in a column.", "Text",
+ CellChangeTimes->{{3.775047799371469*^9, 
+  3.775047810926774*^9}},ExpressionUUID->"8ba8cce1-289e-4cb4-be75-\
+cf1fc19a6c27"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Range", "[", "5", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775047819397344*^9, 3.775047825104792*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"e9d3edbe-9676-4030-ac17-9745eb1ef0f1"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"1"},
+    {"2"},
+    {"3"},
+    {"4"},
+    {"5"}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{3.775047825850458*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"072fdd03-514d-489c-ba74-d9dabf0d7086"]
+}, Open  ]],
+
+Cell["\<\
+4.5 Make a number line plot of the squares {1, 4, 9, 16, 25}.\
+\>", "Text",
+ CellChangeTimes->{{3.775047829676559*^9, 
+  3.775047876825747*^9}},ExpressionUUID->"e92a9686-6a41-4b91-bf1c-\
+3a8480318c7f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NumberLinePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "4", ",", "9", ",", " ", "16", ",", " ", "25"}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.775047877784864*^9, 3.77504797495885*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"42ea4197-b69a-4ed9-816e-82da486ea117"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{1, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{4, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{9, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{16, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{25, 1}]}},
+  AspectRatio->NCache[Rational[1, 10]/GoldenRatio, 0.06180339887498948],
+  Axes->{True, False},
+  AxesLabel->{None},
+  AxesOrigin->{Automatic, Automatic},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  ImagePadding->All,
+  PlotRange->{{1., 25.}, {0, 1}},
+  PlotRangePadding->{{
+     Scaled[0.1], 
+     Scaled[0.1]}, {0, 1}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.7750479228889437`*^9, {3.775047954528531*^9, 3.775047976226391*^9}},
+ CellLabel->"Out[24]=",ExpressionUUID->"cfa5c4dd-3e5c-47a0-b567-f6cd6ab109c5"]
+}, Open  ]],
+
+Cell["\<\
+4.6 Make a list of pie charts with 1, 2, and 3 identical segments.\
+\>", "Text",
+ CellChangeTimes->{{3.775047986971016*^9, 
+  3.7750480134158278`*^9}},ExpressionUUID->"c1782a96-b275-4b09-98fd-\
+4715cbc0a604"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"PieChart", "[", 
+    RowBox[{"{", "1", "}"}], "]"}], ",", " ", 
+   RowBox[{"PieChart", "[", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "1"}], "}"}], "]"}], ",", " ", 
+   RowBox[{"PieChart", "[", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "1", ",", "1"}], "}"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.77504801579352*^9, 3.775048023815343*^9}, {
+  3.775048065322915*^9, 3.775048089827201*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"e314a9e5-fc9b-4b8b-b266-6f9b19b245a2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[{{}, {}, 
+     DynamicModuleBox[{DynamicChart`click$7365$7475 = False}, {
+       {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+        0.5]}], {{{}, 
+          {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+           Opacity[0.5]}], 
+           TagBox[GeometricTransformationBox[
+             TagBox[
+              TagBox[
+               TooltipBox[
+                TagBox[
+                 TagBox[
+                  DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 
+                    3.141592653589793}]},
+                   
+                   ImageSizeCache->{{8., 
+                    171.99999999999997`}, {-83.99999999999999, 
+                    79.99999999999999}}],
+                  "DelayedMouseEffectStyle"],
+                 StatusArea[#, 1]& ,
+                 TagBoxNote->"1"],
+                StyleBox["1", {}, StripOnInput -> False]],
+               Annotation[#, 
+                Style[1, {}], "Tooltip"]& ],
+              
+              EventHandlerTag[{
+               "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7365$7475, 
+                  FEPrivate`Not[DynamicChart`click$7365$7475]], 
+                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                True}]], Dynamic[
+             FEPrivate`If[
+              DynamicChart`click$7365$7475, {{{1., 0.}, {0., 1.}}, {0.2, 
+                0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+              TrackedSymbols :> {DynamicChart`click$7365$7475}]],
+            "DelayedClickEffect"]}}, {}}, {}}, {{
+         TagBox[GeometricTransformationBox[
+           TagBox[
+            TagBox[
+             TooltipBox[
+              TagBox[{{}, {}},
+               StatusArea[#, 1]& ,
+               TagBoxNote->"1"],
+              StyleBox["1", {}, StripOnInput -> False]],
+             Annotation[#, 
+              Style[1, {}], "Tooltip"]& ],
+            
+            EventHandlerTag[{
+             "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7365$7475, 
+                FEPrivate`Not[DynamicChart`click$7365$7475]], PassEventsDown -> 
+              True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+           FEPrivate`If[
+            DynamicChart`click$7365$7475, {{{1., 0.}, {0., 1.}}, {0.2, 
+              0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+            TrackedSymbols :> {DynamicChart`click$7365$7475}]],
+          "DelayedClickEffect"], {}}, {}}, {}, {}},
+      DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+    ContentSelectable->False,
+    DisplayFunction->Identity,
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    PlotRange->{{-1., 1.}, {-1., 1.}},
+    PlotRangePadding->Scaled[0.05]], ",", 
+   GraphicsBox[{{}, {}, 
+     DynamicModuleBox[{DynamicChart`click$7401$7476 = False, 
+      DynamicChart`click$7405$7476 = False}, {
+       {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
+           {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+            Opacity[0.5]}], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[
+                  TagBox[
+                   DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {0., 3.141592653589793}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    172.41421356237305`}, {-84.41421356237309, \
+-0.5857864376268935}}],
+                   "DelayedMouseEffectStyle"],
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7401$7476, 
+                   FEPrivate`Not[DynamicChart`click$7401$7476]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7401$7476, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473533`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+                0, 1}}], TrackedSymbols :> {DynamicChart`click$7401$7476}]],
+             "DelayedClickEffect"]}, 
+           {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+            Opacity[0.5]}], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[
+                  TagBox[
+                   DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 0.}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    172.41421356237305`}, {-3.4142135623731065`, 
+                    80.41421356237309}}],
+                   "DelayedMouseEffectStyle"],
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7405$7476, 
+                   FEPrivate`Not[DynamicChart`click$7405$7476]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7405$7476, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473533`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7405$7476}]],
+             "DelayedClickEffect"]}}}, {}}, {}}, {{{
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[{{}, {}},
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7401$7476, 
+                 FEPrivate`Not[DynamicChart`click$7401$7476]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$7401$7476, {{{1., 0.}, {0., 1.}}, {
+               1.2246467991473533`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {0,
+               1}}], TrackedSymbols :> {DynamicChart`click$7401$7476}]],
+           "DelayedClickEffect"], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[{{}, {}},
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7405$7476, 
+                 FEPrivate`Not[DynamicChart`click$7405$7476]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$7405$7476, {{{1., 0.}, {0., 1.}}, {
+               1.2246467991473533`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+              0, 1}}], TrackedSymbols :> {DynamicChart`click$7405$7476}]],
+           "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+      DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+    ContentSelectable->False,
+    DisplayFunction->Identity,
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    PlotRange->{{-1., 1.}, {-1., 1.}},
+    PlotRangePadding->Scaled[0.05]], ",", 
+   GraphicsBox[{{}, {}, 
+     DynamicModuleBox[{DynamicChart`click$7443$7477 = False, 
+      DynamicChart`click$7447$7477 = False, DynamicChart`click$7451$7477 = 
+      False}, {
+       {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
+           {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+            Opacity[0.5]}], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[
+                  TagBox[
+                   DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {1.0471975511965979`, 
+                    3.141592653589793}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    131.91421356237305`}, {-84.41421356237309, \
+-0.5857864376268935}}],
+                   "DelayedMouseEffectStyle"],
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7443$7477, 
+                   FEPrivate`Not[DynamicChart`click$7443$7477]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7443$7477, {{{1., 0.}, {0., 
+                 1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7443$7477}]],
+             "DelayedClickEffect"]}, 
+           {RGBColor[0.784, 0.47519999999999996`, 0.2], EdgeForm[{GrayLevel[
+            0], Opacity[0.5]}], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[
+                  TagBox[
+                   DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-1.0471975511965974`, 
+                    1.0471975511965979`}]},
+                    
+                    ImageSizeCache->{{88.58578643762688, 
+                    172.41421356237305`}, {-73.56227126891261, 
+                    69.56227126891261}}],
+                   "DelayedMouseEffectStyle"],
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7447$7477, 
+                   FEPrivate`Not[DynamicChart`click$7447$7477]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7447$7477, {{{1., 0.}, {0., 1.}}, {0.2, 
+                 4.4408920985006264`*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+                1}}], TrackedSymbols :> {DynamicChart`click$7447$7477}]],
+             "DelayedClickEffect"]}, 
+           {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+            Opacity[0.5]}], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[
+                  TagBox[
+                   DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -1.0471975511965974`}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    131.91421356237308`}, {-3.4142135623731065`, 
+                    80.41421356237309}}],
+                   "DelayedMouseEffectStyle"],
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7451$7477, 
+                   FEPrivate`Not[DynamicChart`click$7451$7477]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7451$7477, {{{1., 0.}, {0., 
+                 1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7451$7477}]],
+             "DelayedClickEffect"]}}}, {}}, {}}, {{{
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[{{}, {}},
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7443$7477, 
+                 FEPrivate`Not[DynamicChart`click$7443$7477]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$7443$7477, {{{1., 0.}, {0., 
+               1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$7443$7477}]],
+           "DelayedClickEffect"], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[{{}, {}},
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7447$7477, 
+                 FEPrivate`Not[DynamicChart`click$7447$7477]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$7447$7477, {{{1., 0.}, {0., 1.}}, {0.2, 
+               4.4408920985006264`*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+              1}}], TrackedSymbols :> {DynamicChart`click$7447$7477}]],
+           "DelayedClickEffect"], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[{{}, {}},
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7451$7477, 
+                 FEPrivate`Not[DynamicChart`click$7451$7477]], PassEventsDown -> 
+               True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$7451$7477, {{{1., 0.}, {0., 
+               1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$7451$7477}]],
+           "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+      DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+    ContentSelectable->False,
+    DisplayFunction->Identity,
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    PlotRange->{{-1., 1.}, {-1., 1.}},
+    PlotRangePadding->Scaled[0.05]]}], "}"}]], "Output",
+ CellChangeTimes->{{3.7750480838637247`*^9, 3.77504809040974*^9}},
+ CellLabel->"Out[26]=",ExpressionUUID->"758ff768-5c30-4a08-a0d3-e4f241cc9903"]
+}, Open  ]],
+
+Cell["\<\
+4.7 Make a column of pie charts with 1, 2, 3 identical segments.\
+\>", "Text",
+ CellChangeTimes->{{3.775048096351246*^9, 
+  3.775048111163784*^9}},ExpressionUUID->"199944c4-2c83-46d7-8518-\
+98f0923b31da"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", "%", "]"}]], "Input",
+ CellChangeTimes->{{3.775048117578288*^9, 3.775048123785639*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"a4e60d00-aef9-4088-af00-9b6f07168f7a"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$7365$7481 = False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, 
+            {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0],
+              Opacity[0.5]}], 
+             TagBox[GeometricTransformationBox[
+               TagBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 
+                    3.141592653589793}]},
+                    
+                    ImageSizeCache->{{7., 
+                    172.99999999999997`}, {-84.99999999999999, 
+                    80.99999999999999}}],
+                    "DelayedMouseEffectStyle"],
+                   StatusArea[#, 1]& ,
+                   TagBoxNote->"1"],
+                  StyleBox["1", {}, StripOnInput -> False]],
+                 Annotation[#, 
+                  Style[1, {}], "Tooltip"]& ],
+                
+                EventHandlerTag[{
+                 "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7365$7481, 
+                    FEPrivate`Not[DynamicChart`click$7365$7481]], 
+                  PassEventsDown -> True, Method -> "Preemptive", 
+                  PassEventsUp -> True}]], Dynamic[
+               FEPrivate`If[
+                DynamicChart`click$7365$7481, {{{1., 0.}, {0., 1.}}, {0.2, 
+                  0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$7365$7481}]],
+              "DelayedClickEffect"]}}, {}}, {}}, {{
+           TagBox[GeometricTransformationBox[
+             TagBox[
+              TagBox[
+               TooltipBox[
+                TagBox[{{}, {}},
+                 StatusArea[#, 1]& ,
+                 TagBoxNote->"1"],
+                StyleBox["1", {}, StripOnInput -> False]],
+               Annotation[#, 
+                Style[1, {}], "Tooltip"]& ],
+              
+              EventHandlerTag[{
+               "MouseClicked" :> FEPrivate`Set[DynamicChart`click$7365$7481, 
+                  FEPrivate`Not[DynamicChart`click$7365$7481]], 
+                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                True}]], Dynamic[
+             FEPrivate`If[
+              DynamicChart`click$7365$7481, {{{1., 0.}, {0., 1.}}, {0.2, 
+                0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+              TrackedSymbols :> {DynamicChart`click$7365$7481}]],
+            "DelayedClickEffect"], {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.05]]},
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$7401$7482 = False, 
+        DynamicChart`click$7405$7482 = False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, {
+             {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {0., 3.141592653589793}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    172.41421356237305`}, {-84.41421356237309, \
+-0.5857864376268935}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$7401$7482, 
+                    FEPrivate`Not[DynamicChart`click$7401$7482]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$7401$7482, {{{1., 0.}, {0., 1.}}, {
+                   1.2246467991473533`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                  0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$7401$7482}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+              Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 0.}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    172.41421356237305`}, {-3.4142135623731065`, 
+                    80.41421356237309}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$7405$7482, 
+                    FEPrivate`Not[DynamicChart`click$7405$7482]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$7405$7482, {{{1., 0.}, {0., 1.}}, {
+                   1.2246467991473533`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                  0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$7405$7482}]],
+               "DelayedClickEffect"]}}}, {}}, {}}, {{{
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7401$7482, 
+                   FEPrivate`Not[DynamicChart`click$7401$7482]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7401$7482, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473533`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+                0, 1}}], TrackedSymbols :> {DynamicChart`click$7401$7482}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7405$7482, 
+                   FEPrivate`Not[DynamicChart`click$7405$7482]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7405$7482, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473533`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7405$7482}]],
+             "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.05]]},
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$7443$7483 = False, 
+        DynamicChart`click$7447$7483 = False, DynamicChart`click$7451$7483 = 
+        False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, {
+             {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {1.0471975511965979`, 
+                    3.141592653589793}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    131.91421356237305`}, {-84.41421356237309, \
+-0.5857864376268935}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$7443$7483, 
+                    FEPrivate`Not[DynamicChart`click$7443$7483]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$7443$7483, {{{1., 0.}, {0., 
+                   1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+                  0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$7443$7483}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.784, 0.47519999999999996`, 0.2], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-1.0471975511965974`, 
+                    1.0471975511965979`}]},
+                    
+                    ImageSizeCache->{{88.58578643762688, 
+                    172.41421356237305`}, {-73.56227126891261, 
+                    69.56227126891261}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$7447$7483, 
+                    FEPrivate`Not[DynamicChart`click$7447$7483]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$7447$7483, {{{1., 0.}, {0., 1.}}, {0.2, 
+                   4.4408920985006264`*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+                  1}}], TrackedSymbols :> {DynamicChart`click$7447$7483}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+              Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -1.0471975511965974`}]},
+                    
+                    ImageSizeCache->{{7.5857864376268935`, 
+                    131.91421356237308`}, {-3.4142135623731065`, 
+                    80.41421356237309}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$7451$7483, 
+                    FEPrivate`Not[DynamicChart`click$7451$7483]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$7451$7483, {{{1., 0.}, {0., 
+                   1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+                  0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$7451$7483}]],
+               "DelayedClickEffect"]}}}, {}}, {}}, {{{
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7443$7483, 
+                   FEPrivate`Not[DynamicChart`click$7443$7483]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7443$7483, {{{1., 0.}, {0., 
+                 1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7443$7483}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7447$7483, 
+                   FEPrivate`Not[DynamicChart`click$7447$7483]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7447$7483, {{{1., 0.}, {0., 1.}}, {0.2, 
+                 4.4408920985006264`*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+                1}}], TrackedSymbols :> {DynamicChart`click$7447$7483}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$7451$7483, 
+                   FEPrivate`Not[DynamicChart`click$7451$7483]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$7451$7483, {{{1., 0.}, {0., 
+                 1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$7451$7483}]],
+             "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.05]]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{3.77504812458295*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"99df7810-7859-46fe-9b70-4fbd1f491222"]
+}, Open  ]]
+},
+WindowSize->{808, 655},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 178, 3, 35, "Text",ExpressionUUID->"9b2f8500-d850-49ab-883b-2841e8f5b4fa"],
+Cell[CellGroupData[{
+Cell[761, 27, 288, 6, 30, "Input",ExpressionUUID->"7505d631-d10f-48e2-a9d8-4ee609a21bf0"],
+Cell[1052, 35, 6305, 176, 241, "Output",ExpressionUUID->"9daccbbc-b6d2-4d66-90f4-de1be548df1f"]
+}, Open  ]],
+Cell[7372, 214, 187, 3, 35, "Text",ExpressionUUID->"ee1b1a5f-b522-40ee-8675-2428d6cd3def"],
+Cell[CellGroupData[{
+Cell[7584, 221, 241, 4, 30, "Input",ExpressionUUID->"b8e260aa-994c-4083-8fe5-8df90ce8a0e4"],
+Cell[7828, 227, 26771, 620, 377, "Output",ExpressionUUID->"96a516b2-cdba-4aa8-aedd-37c6fef652af"]
+}, Open  ]],
+Cell[34614, 850, 203, 3, 35, "Text",ExpressionUUID->"c2809c32-1c9a-418d-b33b-ac088048b0bd"],
+Cell[CellGroupData[{
+Cell[34842, 857, 344, 7, 30, "Input",ExpressionUUID->"490824f3-5cb4-4ef9-afe8-f5cf8aa53c8b"],
+Cell[35189, 866, 19772, 556, 238, "Output",ExpressionUUID->"0985eec5-ab8f-4e12-8ab2-4a50d5acde1b"]
+}, Open  ]],
+Cell[54976, 1425, 186, 3, 35, "Text",ExpressionUUID->"8ba8cce1-289e-4cb4-be75-cf1fc19a6c27"],
+Cell[CellGroupData[{
+Cell[55187, 1432, 236, 4, 30, "Input",ExpressionUUID->"e9d3edbe-9676-4030-ac17-9745eb1ef0f1"],
+Cell[55426, 1438, 389, 13, 99, "Output",ExpressionUUID->"072fdd03-514d-489c-ba74-d9dabf0d7086"]
+}, Open  ]],
+Cell[55830, 1454, 211, 5, 35, "Text",ExpressionUUID->"e92a9686-6a41-4b91-bf1c-3a8480318c7f"],
+Cell[CellGroupData[{
+Cell[56066, 1463, 303, 6, 30, "Input",ExpressionUUID->"42ea4197-b69a-4ed9-816e-82da486ea117"],
+Cell[56372, 1471, 1151, 25, 56, "Output",ExpressionUUID->"cfa5c4dd-3e5c-47a0-b567-f6cd6ab109c5"]
+}, Open  ]],
+Cell[57538, 1499, 218, 5, 35, "Text",ExpressionUUID->"c1782a96-b275-4b09-98fd-4715cbc0a604"],
+Cell[CellGroupData[{
+Cell[57781, 1508, 530, 13, 30, "Input",ExpressionUUID->"e314a9e5-fc9b-4b8b-b266-6f9b19b245a2"],
+Cell[58314, 1523, 17531, 398, 199, "Output",ExpressionUUID->"758ff768-5c30-4a08-a0d3-e4f241cc9903"]
+}, Open  ]],
+Cell[75860, 1924, 214, 5, 35, "Text",ExpressionUUID->"199944c4-2c83-46d7-8518-98f0923b31da"],
+Cell[CellGroupData[{
+Cell[76099, 1933, 204, 3, 30, "Input",ExpressionUUID->"a4e60d00-aef9-4088-af00-9b6f07168f7a"],
+Cell[76306, 1938, 18548, 420, 569, "Output",ExpressionUUID->"99df7810-7859-46fe-9b70-4fbd1f491222"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
