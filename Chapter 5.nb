@@ -1,0 +1,519 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19125,        511]
+NotebookOptionsPosition[     14556,        429]
+NotebookOutlinePosition[     14893,        444]
+CellTagsIndexPosition[     14850,        441]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["5.1 Make a list of the first 10 squares, in reverse order.", "Text",
+ CellChangeTimes->{{3.775048530773239*^9, 
+  3.7750485464276543`*^9}},ExpressionUUID->"f323d0e5-a1aa-41db-9052-\
+7d15b7e2951e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Reverse", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", "10", "]"}], "^", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048550803863*^9, 3.775048558396318*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"6bcd1fa1-157d-4a34-a7d0-9e9aab1d6c8e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "100", ",", "81", ",", "64", ",", "49", ",", "36", ",", "25", ",", "16", 
+   ",", "9", ",", "4", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.7750485614910107`*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"5986af91-77a9-47fa-864c-064acdc58e7d"]
+}, Open  ]],
+
+Cell["5.2 Find the total for the first 10 squares.", "Text",
+ CellChangeTimes->{{3.775048572513082*^9, 
+  3.775048583154849*^9}},ExpressionUUID->"d0591cdc-17d7-4b92-9122-\
+902329eb5001"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", "10", "]"}], "^", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7750485857702417`*^9, 3.77504861449046*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"8f4e7490-0ad9-41aa-84f6-2e08d5e63ce8"],
+
+Cell[BoxData["385"], "Output",
+ CellChangeTimes->{{3.775048593756523*^9, 3.775048615036317*^9}},
+ CellLabel->"Out[31]=",ExpressionUUID->"62e2c4d0-8354-4b0a-ac87-50901d285e1d"]
+}, Open  ]],
+
+Cell["5.3 Make a plot of the first 10 squares starting at 1.", "Text",
+ CellChangeTimes->{{3.775048618088485*^9, 
+  3.7750486387602577`*^9}},ExpressionUUID->"0be85f41-005c-45d2-ad63-\
+0039fa0e6304"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"Range", "[", "10", "]"}], "^", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048640158853*^9, 3.775048648735021*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"04e530f5-b90c-4992-af95-52e0211e5971"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
+      AbsoluteThickness[1.6], 
+     PointBox[{{1., 1.}, {2., 4.}, {3., 9.}, {4., 16.}, {5., 25.}, {6., 
+      36.}, {7., 49.}, {8., 64.}, {9., 81.}, {10., 100.}}]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 10.}, {0, 100.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.7750486497629147`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"8a9381db-f145-4555-b34f-1d76444bb3b5"]
+}, Open  ]],
+
+Cell["\<\
+5.4 Use Sort, Join and Range to create {1, 1, 2, 2, 3, 3, 4, 4}.\
+\>", "Text",
+ CellChangeTimes->{{3.775048654558117*^9, 
+  3.775048685652376*^9}},ExpressionUUID->"f1116937-fbb9-4729-b0b4-\
+3ceaed8eda68"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sort", "[", 
+  RowBox[{"Join", "[", 
+   RowBox[{
+    RowBox[{"Range", "[", "4", "]"}], ",", " ", 
+    RowBox[{"Range", "[", "4", "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048688215331*^9, 3.7750487063859873`*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"999873bf-e713-4ba1-b1ed-a2ec8ae67b60"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "1", ",", "2", ",", "2", ",", "3", ",", "3", ",", "4", ",", "4"}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.775048707262018*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"37a209ca-36ed-404d-a825-769ff9d95ffa"]
+}, Open  ]],
+
+Cell["\<\
+5.5 Use Range and + to make a list of numbers from 10 to 20, inclusive.\
+\>", "Text",
+ CellChangeTimes->{{3.775048712992569*^9, 
+  3.775048734430832*^9}},ExpressionUUID->"dd563c62-13ad-4d06-a091-\
+219184d5aa07"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Range", "[", "11", "]"}], "+", "9"}]], "Input",
+ CellChangeTimes->{{3.775048755509788*^9, 3.775048770594248*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"d5894646-e155-4379-900a-eaa33339c39f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "10", ",", "11", ",", "12", ",", "13", ",", "14", ",", "15", ",", "16", ",",
+    "17", ",", "18", ",", "19", ",", "20"}], "}"}]], "Output",
+ CellChangeTimes->{{3.77504876572302*^9, 3.775048771020496*^9}},
+ CellLabel->"Out[35]=",ExpressionUUID->"269387ab-3e44-4883-a549-ed19b1d7ce68"]
+}, Open  ]],
+
+Cell["\<\
+5.6 Make a combined list of the first 5 squares and cubes, sorted into order.\
+\
+\>", "Text",
+ CellChangeTimes->{{3.775048795726945*^9, 
+  3.775048819498151*^9}},ExpressionUUID->"eba2ee72-f5e5-4b82-87b1-\
+de06c4585810"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sort", "[", 
+  RowBox[{"Join", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Range", "[", "5", "]"}], "^", "2"}], ",", " ", 
+    RowBox[{
+     RowBox[{"Range", "[", "5", "]"}], "^", "3"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048825842751*^9, 3.775048845846036*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"7860a913-d091-4301-b0d2-8f291100b7cf"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "1", ",", "4", ",", "8", ",", "9", ",", "16", ",", "25", ",", 
+   "27", ",", "64", ",", "125"}], "}"}]], "Output",
+ CellChangeTimes->{3.7750488468315907`*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"212df93a-9cea-4172-bfde-ca76e2988060"]
+}, Open  ]],
+
+Cell["5.7 Find the number of digits in 2^128.", "Text",
+ CellChangeTimes->{{3.7750488658335047`*^9, 
+  3.775048882899522*^9}},ExpressionUUID->"58da5cb7-3475-4488-81f3-\
+3ac1e400426c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{"IntegerDigits", "[", 
+   RowBox[{"2", "^", "128"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048886257553*^9, 3.775048906250134*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"8d65c8c6-fa9c-43d2-8de1-89ec7623d8fe"],
+
+Cell[BoxData["39"], "Output",
+ CellChangeTimes->{{3.775048897861308*^9, 3.775048907431621*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"c49ff7f2-09b6-4220-b5ed-2b169c71566e"]
+}, Open  ]],
+
+Cell["5.8 Find the first digit of 2^32.", "Text",
+ CellChangeTimes->{{3.775048913035275*^9, 
+  3.7750489266690187`*^9}},ExpressionUUID->"56aa0e2a-1f77-4d24-bd05-\
+fa06bfb95201"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"First", "[", 
+  RowBox[{"IntegerDigits", "[", 
+   RowBox[{"2", "^", "32"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048929282215*^9, 3.7750489365740137`*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"bf0e18d1-3d73-4a22-8fae-368b93d94dec"],
+
+Cell[BoxData["4"], "Output",
+ CellChangeTimes->{3.7750489370848083`*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"e9d118c8-3853-4100-94d1-965d01038081"]
+}, Open  ]],
+
+Cell["5.9 Find the first 10 digits in 2^100.", "Text",
+ CellChangeTimes->{{3.775048947534223*^9, 
+  3.775048972064713*^9}},ExpressionUUID->"f79472c3-1217-4196-8d6b-\
+f725e06c725c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"IntegerDigits", "[", 
+    RowBox[{"2", "^", "100"}], "]"}], ",", " ", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775048994097617*^9, 3.775049024758112*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"162178f0-c933-418d-b3ed-92c9486b0cc8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "2", ",", "6", ",", "7", ",", "6", ",", "5", ",", "0", ",", "6", 
+   ",", "0", ",", "0"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7750490075681553`*^9, 3.775049025383215*^9}},
+ CellLabel->"Out[41]=",ExpressionUUID->"842c2255-56b1-4d67-b728-484c83089dca"]
+}, Open  ]],
+
+Cell["5.10 Find the largest digit that appears in 2^20.", "Text",
+ CellChangeTimes->{{3.7750490316745863`*^9, 
+  3.775049046355631*^9}},ExpressionUUID->"cc72816c-7d6d-40e7-a86c-\
+9ebbd1080522"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Max", "[", 
+  RowBox[{"IntegerDigits", "[", 
+   RowBox[{"2", "^", "20"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7750490501730213`*^9, 3.775049067659128*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"8d3ef263-918f-420a-9880-b72ccac07d99"],
+
+Cell[BoxData["8"], "Output",
+ CellChangeTimes->{3.775049068376902*^9},
+ CellLabel->"Out[42]=",ExpressionUUID->"f5bf2433-0618-41c9-8333-a29a467cd67d"]
+}, Open  ]],
+
+Cell["5.11 Find how many zeros appear in the digital of 2^1000.", "Text",
+ CellChangeTimes->{{3.775049073185512*^9, 
+  3.775049095372818*^9}},ExpressionUUID->"b56df82f-9ecb-4382-90a1-\
+bb722c83e683"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Count", "[", 
+  RowBox[{
+   RowBox[{"IntegerDigits", "[", 
+    RowBox[{"2", "^", "1000"}], "]"}], ",", " ", "0"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775049113968601*^9, 3.775049124293317*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"3d9fac1c-90b6-42b2-89da-59137568c302"],
+
+Cell[BoxData["28"], "Output",
+ CellChangeTimes->{3.775049124821507*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"3a849021-0d4e-4ba1-a96b-9e8ecd3325b7"]
+}, Open  ]],
+
+Cell["\<\
+5.12 Use Part, Sort and IntegerDigits to find the second-smallest digit in \
+2^20.\
+\>", "Text",
+ CellChangeTimes->{{3.775049151229596*^9, 3.775049182701047*^9}, {
+  3.7750493423638983`*^9, 
+  3.775049343698947*^9}},ExpressionUUID->"4f91eaa7-c284-49d0-b069-\
+5f896bb35a64"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Part", "[", 
+  RowBox[{
+   RowBox[{"Sort", "[", 
+    RowBox[{"IntegerDigits", "[", 
+     RowBox[{"2", "^", "20"}], "]"}], "]"}], ",", " ", "2"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.77504920448498*^9, 3.7750492073500147`*^9}, {
+  3.775049285150957*^9, 3.775049321392268*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"ae2b7ffc-0e12-4df2-9e60-e50896a08e5c"],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{{3.775049296647293*^9, 3.775049322277734*^9}},
+ CellLabel->"Out[46]=",ExpressionUUID->"3db68784-999e-467d-be22-7f8961caac3f"]
+}, Open  ]],
+
+Cell["\<\
+5.13 Make a line plot of the sequence of digits that appear in 2^128.\
+\>", "Text",
+ CellChangeTimes->{{3.7750493471671553`*^9, 
+  3.775049375602251*^9}},ExpressionUUID->"a926eabe-7dcf-490e-82cc-\
+23ab13b1fbbc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"IntegerDigits", "[", 
+   RowBox[{"2", "^", "128"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775049378340852*^9, 3.775049397286435*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"4a06fc5f-cec7-444a-95b1-b2cde4fde40b"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+      LineBox[CompressedData["
+1:eJxdkjsOwjAQRC0qSgqKFBSAECCEEP8/iYEbcAQkaq7gI3MEQJkp/CxFT7Oe
+3XGc9J7vx6sRQhj9nj/r9alqNqMKYiuiHvK6fW2xKxbY72AOfX3oAepDzBvj
+PBP4p8ibIXcu+j0WyF+ifwX/Gv4N/Fvoneh72GPeAfOOotcJ/Wf0X5BXiv6u
+FfpjnpesfT9X52vf2vNuuU7WPs9d1H+RrIv4BSHkI7k=
+       "]]}}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6]}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+       NCache[
+        Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[
+      1.6]}, {}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 39.}, {0, 9.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.775049398560895*^9},
+ CellLabel->"Out[47]=",ExpressionUUID->"494191ae-f244-4593-a1f1-047e9fe33028"]
+}, Open  ]],
+
+Cell["\<\
+5.14 Use Take and Drop to get the sequence 11 through 20 from Range[100].\
+\>", "Text",
+ CellChangeTimes->{{3.775049404135988*^9, 
+  3.77504943551721*^9}},ExpressionUUID->"e2cbbc73-c020-4d7b-9de3-\
+8ddce84d8c82"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"Drop", "[", 
+    RowBox[{
+     RowBox[{"Range", "[", "100", "]"}], ",", " ", "10"}], "]"}], ",", " ", 
+   "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.775049437312272*^9, 3.775049462645928*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"f56617cd-ef7b-4596-b3f2-399c2266585d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "11", ",", "12", ",", "13", ",", "14", ",", "15", ",", "16", ",", "17", ",",
+    "18", ",", "19", ",", "20"}], "}"}]], "Output",
+ CellChangeTimes->{{3.775049449400929*^9, 3.775049463366415*^9}},
+ CellLabel->"Out[49]=",ExpressionUUID->"ecd34750-b617-49d3-9083-cbadfce8aa56"]
+}, Open  ]]
+},
+WindowSize->{808, 655},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 202, 3, 35, "Text",ExpressionUUID->"f323d0e5-a1aa-41db-9052-7d15b7e2951e"],
+Cell[CellGroupData[{
+Cell[785, 27, 262, 5, 30, "Input",ExpressionUUID->"6bcd1fa1-157d-4a34-a7d0-9e9aab1d6c8e"],
+Cell[1050, 34, 291, 6, 34, "Output",ExpressionUUID->"5986af91-77a9-47fa-864c-064acdc58e7d"]
+}, Open  ]],
+Cell[1356, 43, 186, 3, 35, "Text",ExpressionUUID->"d0591cdc-17d7-4b92-9122-902329eb5001"],
+Cell[CellGroupData[{
+Cell[1567, 50, 261, 5, 30, "Input",ExpressionUUID->"8f4e7490-0ad9-41aa-84f6-2e08d5e63ce8"],
+Cell[1831, 57, 175, 2, 34, "Output",ExpressionUUID->"62e2c4d0-8354-4b0a-ac87-50901d285e1d"]
+}, Open  ]],
+Cell[2021, 62, 198, 3, 35, "Text",ExpressionUUID->"0be85f41-005c-45d2-ad63-0039fa0e6304"],
+Cell[CellGroupData[{
+Cell[2244, 69, 263, 5, 30, "Input",ExpressionUUID->"04e530f5-b90c-4992-af95-52e0211e5971"],
+Cell[2510, 76, 1592, 41, 244, "Output",ExpressionUUID->"8a9381db-f145-4555-b34f-1d76444bb3b5"]
+}, Open  ]],
+Cell[4117, 120, 214, 5, 35, "Text",ExpressionUUID->"f1116937-fbb9-4729-b0b4-3ceaed8eda68"],
+Cell[CellGroupData[{
+Cell[4356, 129, 332, 7, 30, "Input",ExpressionUUID->"999873bf-e713-4ba1-b1ed-a2ec8ae67b60"],
+Cell[4691, 138, 260, 6, 34, "Output",ExpressionUUID->"37a209ca-36ed-404d-a825-769ff9d95ffa"]
+}, Open  ]],
+Cell[4966, 147, 221, 5, 35, "Text",ExpressionUUID->"dd563c62-13ad-4d06-a091-219184d5aa07"],
+Cell[CellGroupData[{
+Cell[5212, 156, 227, 4, 30, "Input",ExpressionUUID->"d5894646-e155-4379-900a-eaa33339c39f"],
+Cell[5442, 162, 325, 6, 34, "Output",ExpressionUUID->"269387ab-3e44-4883-a549-ed19b1d7ce68"]
+}, Open  ]],
+Cell[5782, 171, 229, 6, 35, "Text",ExpressionUUID->"eba2ee72-f5e5-4b82-87b1-de06c4585810"],
+Cell[CellGroupData[{
+Cell[6036, 181, 382, 9, 30, "Input",ExpressionUUID->"7860a913-d091-4301-b0d2-8f291100b7cf"],
+Cell[6421, 192, 289, 6, 34, "Output",ExpressionUUID->"212df93a-9cea-4172-bfde-ca76e2988060"]
+}, Open  ]],
+Cell[6725, 201, 183, 3, 35, "Text",ExpressionUUID->"58da5cb7-3475-4488-81f3-3ac1e400426c"],
+Cell[CellGroupData[{
+Cell[6933, 208, 270, 5, 30, "Input",ExpressionUUID->"8d65c8c6-fa9c-43d2-8de1-89ec7623d8fe"],
+Cell[7206, 215, 174, 2, 34, "Output",ExpressionUUID->"c49ff7f2-09b6-4220-b5ed-2b169c71566e"]
+}, Open  ]],
+Cell[7395, 220, 177, 3, 35, "Text",ExpressionUUID->"56aa0e2a-1f77-4d24-bd05-fa06bfb95201"],
+Cell[CellGroupData[{
+Cell[7597, 227, 270, 5, 30, "Input",ExpressionUUID->"bf0e18d1-3d73-4a22-8fae-368b93d94dec"],
+Cell[7870, 234, 151, 2, 34, "Output",ExpressionUUID->"e9d118c8-3853-4100-94d1-965d01038081"]
+}, Open  ]],
+Cell[8036, 239, 180, 3, 35, "Text",ExpressionUUID->"f79472c3-1217-4196-8d6b-f725e06c725c"],
+Cell[CellGroupData[{
+Cell[8241, 246, 299, 6, 30, "Input",ExpressionUUID->"162178f0-c933-418d-b3ed-92c9486b0cc8"],
+Cell[8543, 254, 307, 6, 34, "Output",ExpressionUUID->"842c2255-56b1-4d67-b728-484c83089dca"]
+}, Open  ]],
+Cell[8865, 263, 193, 3, 35, "Text",ExpressionUUID->"cc72816c-7d6d-40e7-a86c-9ebbd1080522"],
+Cell[CellGroupData[{
+Cell[9083, 270, 268, 5, 30, "Input",ExpressionUUID->"8d3ef263-918f-420a-9880-b72ccac07d99"],
+Cell[9354, 277, 149, 2, 34, "Output",ExpressionUUID->"f5bf2433-0618-41c9-8333-a29a467cd67d"]
+}, Open  ]],
+Cell[9518, 282, 199, 3, 35, "Text",ExpressionUUID->"b56df82f-9ecb-4382-90a1-bb722c83e683"],
+Cell[CellGroupData[{
+Cell[9742, 289, 300, 6, 30, "Input",ExpressionUUID->"3d9fac1c-90b6-42b2-89da-59137568c302"],
+Cell[10045, 297, 150, 2, 34, "Output",ExpressionUUID->"3a849021-0d4e-4ba1-a96b-9e8ecd3325b7"]
+}, Open  ]],
+Cell[10210, 302, 283, 7, 35, "Text",ExpressionUUID->"4f91eaa7-c284-49d0-b069-5f896bb35a64"],
+Cell[CellGroupData[{
+Cell[10518, 313, 383, 9, 30, "Input",ExpressionUUID->"ae2b7ffc-0e12-4df2-9e60-e50896a08e5c"],
+Cell[10904, 324, 173, 2, 34, "Output",ExpressionUUID->"3db68784-999e-467d-be22-7f8961caac3f"]
+}, Open  ]],
+Cell[11092, 329, 221, 5, 35, "Text",ExpressionUUID->"a926eabe-7dcf-490e-82cc-23ab13b1fbbc"],
+Cell[CellGroupData[{
+Cell[11338, 338, 276, 5, 30, "Input",ExpressionUUID->"4a06fc5f-cec7-444a-95b1-b2cde4fde40b"],
+Cell[11617, 345, 2008, 53, 251, "Output",ExpressionUUID->"494191ae-f244-4593-a1f1-047e9fe33028"]
+}, Open  ]],
+Cell[13640, 401, 222, 5, 35, "Text",ExpressionUUID->"e2cbbc73-c020-4d7b-9de3-8ddce84d8c82"],
+Cell[CellGroupData[{
+Cell[13887, 410, 335, 8, 30, "Input",ExpressionUUID->"f56617cd-ef7b-4596-b3f2-399c2266585d"],
+Cell[14225, 420, 315, 6, 34, "Output",ExpressionUUID->"ecd34750-b617-49d3-9083-cbadfce8aa56"]
+}, Open  ]]
+}
+]
+*)
+
